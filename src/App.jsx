@@ -1,10 +1,10 @@
 import './App.css'
-import MyTitle from "./components/MyTitle"
+import PokemonCard from "./components/pokemonCard.jsx";
 
 function App() {
     return (
         <div>
-            <MyTitle />
+            <PokemonCard />
         </div>
     );
 }
