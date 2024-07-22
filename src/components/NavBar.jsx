@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import PokemonCard from "./PokemonCard.jsx";
 
-function NavBar({ setPokemonIndex, pokemonIndex, pokemonList }) {
+function NavBar({ setPokemonIndex, pokemonList }) {
 
     const handleClick = (index) => {
         setPokemonIndex(index)
