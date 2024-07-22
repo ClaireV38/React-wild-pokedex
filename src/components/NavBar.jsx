@@ -18,9 +18,9 @@ function NavBar({ setPokemonIndex, pokemonIndex, pokemonCount }) {
 }
 
 NavBar.propTypes = {
-    setPokemonIndex: number,
-    pokemonIndex: number,
-    pokemonCount: number,
+    setPokemonIndex: PropTypes.number.isRequired,
+    pokemonIndex: PropTypes.func.isRequired,
+    pokemonCount: PropTypes.number.isRequired,
 }
 
 export default NavBar;
